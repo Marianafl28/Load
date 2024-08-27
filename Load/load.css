@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 12px solid rgba(213, 211, 79, 0.649);
+    border-radius: 50%;
+    border-right-color:purple;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
